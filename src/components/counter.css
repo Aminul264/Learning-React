@@ -1,0 +1,40 @@
+.Card {
+    background: aquamarine;
+    width: 500px;
+    margin: 50px auto;
+    padding: 60px;
+    box-shadow: 5px 5px 3px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+h1.cardTitle {
+    text-align: center;
+    color: #662222;
+    font-size: 30px;
+}
+button.btn {
+    padding: 6px 17px;
+    border-radius: 14px;
+    outline: none;
+    color: red;
+    margin: auto;
+    border: none;
+}
+.btnGroup{
+    text-align: center;
+
+}
+button{
+    margin-left: 5px;
+}
+button.btn:hover {
+    background: green;
+    color: white;
+}
+button.btn:disabled{
+    background: white;;
+    color: white;
+}
